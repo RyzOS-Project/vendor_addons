@@ -5,10 +5,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-EVO_EXTRAS_PATH := vendor/extras
+RYZ_EXTRAS_PATH := vendor/addons
 
 # Game Props
-TARGET_PRODUCT_PROP += $(EVO_EXTRAS_PATH)/gameprops/product.prop
+TARGET_PRODUCT_PROP += $(RYZ_EXTRAS_PATH)/gameprops/product.prop
 
 # Accord
 TARGET_INCLUDE_ACCORD ?= true
@@ -412,7 +412,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # QS UI Style
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     A11QSUI \
     QSOutline \
     QSTwoToneAccent \
@@ -432,7 +432,7 @@ PRODUCT_PACKAGES += \
     PGB_Shishu
 
 # Notification Themes
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     NotifCyberPunk \
     NotifDuoline \
     NotifFluid \
@@ -440,7 +440,7 @@ PRODUCT_PACKAGES += \
     NotifLayers
 
 # Power Menu Themes
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     PowerCyberPunk \
     PowerDuoline \
     PowerIOS \
@@ -468,7 +468,7 @@ PRODUCT_PACKAGES += \
     HideClock
 
 # Volume Styles
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     VolumeDoubleLayer \
     VolumeGradient \
     VolumeNeumorph \
